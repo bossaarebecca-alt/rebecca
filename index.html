@@ -3,37 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio professionnel - Développeur Full Stack">
-    <title>Mon Portfolio | Développeur Full Stack</title>
+    <meta name="description" content="Portfolio professionnel - Développeuse Full Stack">
+    <title>Mon Portfolio | Bossa Rebecca</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Curseur personnalisé -->
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-    
-    <!-- Background animé -->
-    <div class="bg-animation">
-        <div class="grid-overlay"></div>
-        <div class="floating-particles" id="particles"></div>
-    </div>
-
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
+        <div class="container nav-container">
             <a href="#" class="logo">
-                <span class="logo-icon">◈</span>
                 <span class="logo-text">REBECCA</span>
             </a>
             <ul class="nav-links">
-                <li><a href="#accueil" data-text="Accueil"><span>Accueil</span></a></li>
-                <li><a href="#about" data-text="À propos"><span>À propos</span></a></li>
-                <li><a href="#competences" data-text="Compétences"><span>Compétences</span></a></li>
-                <li><a href="#projets" data-text="Projets"><span>Projets</span></a></li>
-                <li><a href="#contact" data-text="Contact"><span>Contact</span></a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="menu-toggle" aria-label="Menu">
                 <span></span>
@@ -45,44 +34,20 @@
 
     <!-- Hero Section -->
     <section id="accueil" class="hero">
-        <div class="container">
+        <div class="container hero-container">
             <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="badge-pulse"></span>
-                    <span>Disponible pour projets</span>
-                </div>
-                <h1 class="glitch-text" data-text="Bossa Rebecca">
-                    <span class="line-1">Bonjour, je suis</span>
-                    <span class="highlight glitch-line">Bossa Rebecca</span>
-                </h1>
-                <p class="subtitle typing-effect">Développeuse Full Stack passionnée</p>
-                <p class="description">Je conçois des expériences numériques exceptionnelles en fusionnant créativité et technologie de pointe. Chaque ligne de code est une œuvre d'art.</p>
+                <span class="hero-greeting">Bonjour, je suis</span>
+                <h1>Bossa Rebecca</h1>
+                <p class="hero-subtitle">Développeuse Full Stack passionnée</p>
+                <p class="hero-description">Je conçois des expériences numériques exceptionnelles en fusionnant créativité et technologie de pointe.</p>
                 <div class="hero-buttons">
-                    <a href="#projets" class="btn btn-primary">
-                        <span class="btn-shine"></span>
-                        <span class="btn-text">Voir mes projets</span>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <span class="btn-text">Me contacter</span>
-                    </a>
-                </div>
-                <div class="scroll-indicator">
-                    <div class="mouse">
-                        <div class="wheel"></div>
-                    </div>
-                    <span>Scroll</span>
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="cube-container">
-                    <div class="cube">
-                        <div class="face front">&lt;/&gt;</div>
-                        <div class="face back">{}</div>
-                        <div class="face right">[]</div>
-                        <div class="face left">==</div>
-                        <div class="face top">01</div>
-                        <div class="face bottom">π</div>
-                    </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="placeholder-profile.jpg" alt="Photo de Bossa Rebecca" class="profile-photo">
                 </div>
             </div>
         </div>
@@ -91,25 +56,11 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">
-                <span class="title-sub">Qui suis-je</span>
-                <span class="title-main">À propos de moi</span>
-            </h2>
+            <h2 class="section-title">À propos de moi</h2>
             <div class="about-content">
-                <div class="about-visual">
-                    <div class="image-wrapper">
-                        <div class="image-glow"></div>
-                        <img src="placeholder-profile.jpg" alt="Photo de Bossa Rebecca" class="profile-photo">
-                        <div class="floating-code code-1">const dev = "Rebecca";</div>
-                        <div class="floating-code code-2">let passion = true;</div>
-                        <div class="floating-code code-3">code.create();</div>
-                    </div>
-                </div>
                 <div class="about-text">
-                    <div class="text-block">
-                        <p>Développeur passionné avec plus de 2 ans d'expérience dans la création d'applications web innovantes. Je transforme des idées complexes en solutions élégantes et performantes.</p>
-                        <p>Mon approche combine rigueur technique et créativité pour délivrer des expériences utilisateur mémorables. Chaque projet est une opportunité de repousser les limites du possible.</p>
-                    </div>
+                    <p>Développeuse passionnée avec plus de 2 ans d'expérience dans la création d'applications web innovantes. Je transforme des idées complexes en solutions élégantes et performantes.</p>
+                    <p>Mon approche combine rigueur technique et créativité pour délivrer des expériences utilisateur mémorables. Chaque projet est une opportunité de repousser les limites du possible.</p>
                     <div class="about-highlights">
                         <div class="highlight-item">
                             <span class="highlight-icon">🎯</span>
@@ -129,17 +80,14 @@
                     <div class="stat">
                         <span class="stat-number" data-target="2">0</span>
                         <span class="stat-label">Années d'expérience</span>
-                        <div class="stat-bar"><div class="stat-fill" style="width: 40%"></div></div>
                     </div>
                     <div class="stat">
                         <span class="stat-number" data-target="30">0</span>
                         <span class="stat-label">Projets réalisés</span>
-                        <div class="stat-bar"><div class="stat-fill" style="width: 80%"></div></div>
                     </div>
                     <div class="stat">
                         <span class="stat-number" data-target="20">0</span>
                         <span class="stat-label">Clients satisfaits</span>
-                        <div class="stat-bar"><div class="stat-fill" style="width: 75%"></div></div>
                     </div>
                 </div>
             </div>
@@ -149,116 +97,72 @@
     <!-- Skills Section -->
     <section id="competences" class="skills">
         <div class="container">
-            <h2 class="section-title">
-                <span class="title-sub">Mon expertise</span>
-                <span class="title-main">Mes Compétences</span>
-            </h2>
-            <div class="skills-container">
-                <div class="skills-grid">
-                    <div class="skill-card" data-tilt>
-                        <div class="skill-header">
-                            <div class="skill-icon-wrapper">
-                                <span class="skill-icon">🌐</span>
-                                <div class="icon-glow"></div>
-                            </div>
-                            <h3>Frontend</h3>
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>HTML5 / CSS3</span>
+                            <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
                         </div>
-                        <div class="skill-content">
-                            <div class="skill-item">
-                                <span class="skill-name">HTML5 / CSS3</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 95%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">JavaScript (ES6+)</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 90%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">React.js</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 85%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Vue.js</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 80%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">TypeScript</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 75%"></div></div>
-                            </div>
+                        <div class="skill-item">
+                            <span>JavaScript (ES6+)</span>
+                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
                         </div>
-                    </div>
-                    <div class="skill-card" data-tilt>
-                        <div class="skill-header">
-                            <div class="skill-icon-wrapper">
-                                <span class="skill-icon">⚙️</span>
-                                <div class="icon-glow"></div>
-                            </div>
-                            <h3>Backend</h3>
+                        <div class="skill-item">
+                            <span>React.js</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
                         </div>
-                        <div class="skill-content">
-                            <div class="skill-item">
-                                <span class="skill-name">Node.js</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 88%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Python</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 82%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">PHP</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 78%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">PostgreSQL</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 85%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">MongoDB</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 80%"></div></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-card" data-tilt>
-                        <div class="skill-header">
-                            <div class="skill-icon-wrapper">
-                                <span class="skill-icon">🛠️</span>
-                                <div class="icon-glow"></div>
-                            </div>
-                            <h3>Outils & DevOps</h3>
-                        </div>
-                        <div class="skill-content">
-                            <div class="skill-item">
-                                <span class="skill-name">Git / GitHub</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 92%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Docker</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 75%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">AWS</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 70%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">CI/CD</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 68%"></div></div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Agile/Scrum</span>
-                                <div class="skill-progress"><div class="skill-bar" style="width: 85%"></div></div>
-                            </div>
+                        <div class="skill-item">
+                            <span>Vue.js</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
                         </div>
                     </div>
                 </div>
-                <div class="skills-visual">
-                    <div class="tech-cloud">
-                        <span class="tech-tag" style="--i:1">JavaScript</span>
-                        <span class="tech-tag" style="--i:2">React</span>
-                        <span class="tech-tag" style="--i:3">Node.js</span>
-                        <span class="tech-tag" style="--i:4">Python</span>
-                        <span class="tech-tag" style="--i:5">TypeScript</span>
-                        <span class="tech-tag" style="--i:6">Vue.js</span>
-                        <span class="tech-tag" style="--i:7">MongoDB</span>
-                        <span class="tech-tag" style="--i:8">Docker</span>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="progress-bar"><div class="progress" style="width: 82%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PHP</span>
+                            <div class="progress-bar"><div class="progress" style="width: 78%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Outils</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Git / GitHub</span>
+                            <div class="progress-bar"><div class="progress" style="width: 92%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AWS</span>
+                            <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Agile/Scrum</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -268,10 +172,7 @@
     <!-- Projects Section -->
     <section id="projets" class="projects">
         <div class="container">
-            <h2 class="section-title">
-                <span class="title-sub">Mon travail</span>
-                <span class="title-main">Mes Projets</span>
-            </h2>
+            <h2 class="section-title">Mes Projets</h2>
             <div class="projects-filter">
                 <button class="filter-btn active" data-filter="all">Tous</button>
                 <button class="filter-btn" data-filter="frontend">Frontend</button>
@@ -280,77 +181,61 @@
             </div>
             <div class="projects-grid">
                 <div class="project-card" data-category="fullstack">
-                    <div class="project-image-wrapper">
-                        <div class="project-image">
-                            <div class="placeholder-image">E-Commerce</div>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="overlay-content">
-                                <a href="#" class="btn-view"><span>👁</span> Voir</a>
-                                <a href="#" class="btn-code"><span>⌨</span> Code</a>
-                            </div>
-                        </div>
+                    <div class="project-image">
+                        <div class="project-placeholder">E-Commerce</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-category">Fullstack</div>
+                        <span class="project-category">Fullstack</span>
                         <h3>E-commerce Platform</h3>
-                        <p>Plateforme de commerce électronique complète avec panier, paiement sécurisé et dashboard admin.</p>
+                        <p>Plateforme de commerce électronique complète avec panier et paiement sécurisé.</p>
                         <div class="project-tags">
                             <span>React</span>
                             <span>Node.js</span>
                             <span>MongoDB</span>
-                            <span>Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">Voir</a>
+                            <a href="#" class="btn-link">Code</a>
                         </div>
                     </div>
-                    <div class="project-glow"></div>
                 </div>
                 <div class="project-card" data-category="frontend">
-                    <div class="project-image-wrapper">
-                        <div class="project-image">
-                            <div class="placeholder-image">Dashboard</div>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="overlay-content">
-                                <a href="#" class="btn-view"><span>👁</span> Voir</a>
-                                <a href="#" class="btn-code"><span>⌨</span> Code</a>
-                            </div>
-                        </div>
+                    <div class="project-image">
+                        <div class="project-placeholder">Dashboard</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-category">Frontend</div>
-                        <h3>Dashboard Analytics</h3>
-                        <p>Tableau de bord interactif avec visualisation de données en temps réel et rapports dynamiques.</p>
+                        <span class="project-category">Frontend</span>
+                        <h3>Dashboard Admin</h3>
+                        <p>Interface d'administration moderne avec tableaux de bord interactifs.</p>
                         <div class="project-tags">
                             <span>Vue.js</span>
-                            <span>D3.js</span>
                             <span>Chart.js</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">Voir</a>
+                            <a href="#" class="btn-link">Code</a>
                         </div>
                     </div>
-                    <div class="project-glow"></div>
                 </div>
-                <div class="project-card" data-category="fullstack">
-                    <div class="project-image-wrapper">
-                        <div class="project-image">
-                            <div class="placeholder-image">Mobile App</div>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="overlay-content">
-                                <a href="#" class="btn-view"><span>👁</span> Voir</a>
-                                <a href="#" class="btn-code"><span>⌨</span> Code</a>
-                            </div>
-                        </div>
+                <div class="project-card" data-category="backend">
+                    <div class="project-image">
+                        <div class="project-placeholder">API REST</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-category">Fullstack</div>
-                        <h3>Task Manager Pro</h3>
-                        <p>Application de gestion de tâches collaborative avec synchronisation en temps réel.</p>
+                        <span class="project-category">Backend</span>
+                        <h3>API RESTful</h3>
+                        <p>API robuste et sécurisée pour application mobile de gestion.</p>
                         <div class="project-tags">
-                            <span>React Native</span>
-                            <span>Firebase</span>
-                            <span>TypeScript</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">Voir</a>
+                            <a href="#" class="btn-link">Code</a>
                         </div>
                     </div>
-                    <div class="project-glow"></div>
                 </div>
             </div>
         </div>
@@ -359,73 +244,43 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">
-                <span class="title-sub">Parlons ensemble</span>
-                <span class="title-main">Contactez-moi</span>
-            </h2>
-            <div class="contact-wrapper">
-                <div class="contact-cards">
-                    <div class="contact-card">
-                        <div class="card-icon">📧</div>
-                        <h4>Email</h4>
-                        <a href="mailto:bossarebecca@gmail.com">bossarebecca@gmail.com</a>
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:rebecca@example.com">rebecca@example.com</a>
+                        </div>
                     </div>
-                    <div class="contact-card">
-                        <div class="card-icon">📱</div>
-                        <h4>Téléphone</h4>
-                        <a href="tel:+22893663140">+228 93 66 31 40</a>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+                        </div>
                     </div>
-                    <div class="contact-card">
-                        <div class="card-icon">📍</div>
-                        <h4>Localisation</h4>
-                        <span>Tokoin, Togo</span>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Paris, France</p>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder=" " required>
-                            <label for="name">Votre nom</label>
-                            <div class="input-line"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder=" " required>
-                            <label for="email">Votre email</label>
-                            <div class="input-line"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
-                            <label for="message">Votre message</label>
-                            <div class="input-line"></div>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-submit">
-                            <span class="btn-text">Envoyer le message</span>
-                            <span class="btn-icon">➤</span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="social-section">
-                <p>Suivez-moi sur les réseaux</p>
-                <div class="social-links">
-                    <a href="#" class="social-link" aria-label="GitHub">
-                        <span class="social-icon">GH</span>
-                        <span class="social-tooltip">GitHub</span>
-                    </a>
-                    <a href="#" class="social-link" aria-label="LinkedIn">
-                        <span class="social-icon">IN</span>
-                        <span class="social-tooltip">LinkedIn</span>
-                    </a>
-                    <a href="#" class="social-link" aria-label="Twitter">
-                        <span class="social-icon">TW</span>
-                        <span class="social-tooltip">Twitter</span>
-                    </a>
-                </div>
-            </div>
-            <div class="cv-download-section">
-                <a href="cv-rebecca-bossa.pdf" download class="btn btn-cv-large">
-                    <span class="btn-icon">⬇</span> Télécharger mon CV
-                </a>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
             </div>
         </div>
     </section>
@@ -433,8 +288,12 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Rebecca Bossa. Tous droits réservés.</p>
-            <p class="footer-location">📍 Tokoin, Togo | 📧 bossarebecca@gmail.com | 📱 +228 93 66 31 40</p>
+            <p>&copy; 2024 Bossa Rebecca. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
         </div>
     </footer>
 
